@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/bulma.css"/>
+    <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="stylesheet" href="css/aos.css"/>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/particle.js"></script>
+    <script src="js/aos.js"></script>
+    <title>ComChat: Making close distance closer</title>
+</head>
+<body>
+<div id="fullpage">
+    <div class="hero is-fullheight landing-1 sec">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="../">
+                            <img src="logo.png" alt="Under construction">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                    </div>
+                    <div id="navbarMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item" href="https://fb.com/quangltm">
+                                Follow
+                            </a>
+                            <a class="navbar-item" href="https://github.com/quangio">
+                                About
+                            </a>
+                            <a class="navbar-item btn-hover color-4">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id="particles-js" style="clear: both;"></div>
+        <div class="hero-body">
+            <div class="container is-vcentered">
+                <div class="columns is-vcentered">
+                    <div class="column is-6" data-aos="fade-right" data-aos-duration="600">
+
+                        <h1 class="title is-size-1-mobile" style="font-size: 6vw;">
+                            ComChat
+                        </h1>
+                        <h4 class="subtitle is-5" data-aos-delay="1400" data-aos="flip-down" data-aos-duration="1500">
+                            Coming soon
+                        </h4>
+                        <p class="is-primary is-size-3">
+                            Social network where you can honestly <b class="has-text-danger">com</b>plain and <b
+                                class="has-text-warning">com</b>pliment
+                            or just effectively <b class="has-text-info">com</b>municate with nearby <b
+                                class="has-text-primary">com</b>munity
+                        </p>
+                        <br>
+                        <p class="is-size-6">
+                            Feeling adventurous? Interested? Supporting the Communist Party?<br>
+                            Subscribe to test the app before everyone else while helping me fight some bugs!
+                        </p>
+                        <br>
+                        <div>
+                            <form class="field has-addons has-text-centered" action="thank-you" id="subscribe-form"
+                                  netlify>
+                                <div class="control is-expanded is-full-mobile">
+                                    <input name="email" class="input is-large" type="email" placeholder="Email">
+                                </div>
+                                <div class="control">
+                                    <a class="btn-hover color-3 button is-large is-primary"
+                                       href="javascript:submitForm()">
+                                        NOTIFY ME
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                        <br>
+                        <p class="is-size-7 has-text-centered">
+                            (*I will use the above email to send you closed alpha invitation when it is ready. No
+                            spams.)
+                        </p>
+                    </div>
+                    <div class="column has-text-centered is-6 is-offset-1">
+                        <div class="flip-container" data-aos="fade-left" data-aos-duration="1600"
+                             onclick="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    <figure>
+                                        <img width="70%" src="screenshot.jpg" alt="Screenshot demo 1">
+                                    </figure>
+                                </div>
+                                <div class="back">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-foot">
+            <div class="icon-scroll"></div>
+        </div>
+    </div>
+    <div class="sec">
+        <div class="hero is-halfheight is-vcentered landing-2" style="background-color: #631eff;">
+            <div class="hero-body gradient-1">
+                <div class="container" data-aos="zoom-in" style=" color: #ffffff; ">
+                    <h1 class="title has-text-centered" style=" color: #ffffff; ">
+                        Why ?
+                    </h1>
+                    <h2 class="subtitle has-text-centered" style=" color: #ffffff; ">
+                        Because I just want to
+                    </h2>
+                    <p>
+                        "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                        sed
+                        quia non numquam eius modi tempora
+                        incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+                        nostrum
+                        exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                        Quis
+                        autem
+                        vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel
+                        illum
+                        qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="hero is-halfheight is-vcentered landing-3" style="background-color: #631eff;">
+            <div class="hero-body gradient-2">
+                <div class="container" data-aos="zoom-in" style=" color: #ffffff; ">
+                    <h1 class="title has-text-centered" style=" color: #ffffff; ">
+                        How ?
+                    </h1>
+                    <h2 class="subtitle has-text-centered" style=" color: #ffffff; ">
+                        Let's me explain it in layman term
+                    </h2>
+                    <p>
+                        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium,
+                        totam
+                        rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                        sunt
+                        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="thanks-model">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+        <div class="box">
+            <article class="media">
+                <div class="media-left">
+                    <figure class="image is-64x64">
+                        <img src="https://avatars1.githubusercontent.com/u/13181907" alt="my avatar">
+                    </figure>
+                </div>
+                <div class="media-content">
+                    <div class="content">
+                        <p>
+                            <strong>Lương Thế Minh Quang</strong>
+                            <br>
+                            Thank you! Cảm Ơn! 谢谢！I am striving to deliver this product. Any forms of encouragement and
+                            feedback will be appreciated.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <button class="modal-close is-large" aria-label="close" onclick="closeModal()"></button>
+</div>
+<script>
+
+    function submitForm() {
+        var $form = $('#subscribe-form');
+        $("#thanks-model").addClass("is-active");
+        $.post($form.attr("action"), $form.serialize()).then(function () {
+            console.log($form.serialize());
+        });
+    }
+
+    function closeModal() {
+        $("#thanks-model").removeClass("is-active");
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        particlesJS.load('particles-js', 'particle.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+        AOS.init();
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        if ($navbarBurgers.length > 0) {
+            $navbarBurgers.forEach(function ($el) {
+                $el.addEventListener('click', function () {
+                    var target = $el.dataset.target;
+                    var $target = document.getElementById(target);
+                    $el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+                });
+            });
+        }
+    });
+</script>
+</body>
+</html>
